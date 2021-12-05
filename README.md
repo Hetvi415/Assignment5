@@ -1,53 +1,54 @@
-# Assignment5
+# Product_Management_APIs_MongoDB
 
-SCHEMA:
+### SCHEMA:
 
 
 <------ PRODUCT ------>
-product id : String
-title : String
-price : String
-category : Array of String
-company id : String
-seller id : Array of String
+* product id : String
+* title : String
+* price : String
+* category : Array of String
+* company id : String
+* seller id : Array of String
 
 
 <------ COMPANY ------>
-company id : String
-name : String
-product ids : Array of String
+* company id : String
+* name : String
+* product ids : Array of String
 
 
 <------ SELLER ------>
 
-seller id : String
-name : String
-product ids : Array of String
+* seller id : String
+* name : String
+* product ids : Array of String
 
 
-GET, POST, PUT, DELETE REQUESTS:
+### GET, POST, PUT, DELETE REQUESTS:
 
 
 <------ ADD ------>
-add new company
-add new seller
-add new product
+* add new company
+* add new seller
+* add new product
 
 
 <------ RETRIEVE ------>
-fetch company details based on product name
-fetch seller details based on product name
-fetch all products of a company
-fetch all products of a seller
+* fetch company details based on product name
+* fetch seller details based on product name
+* fetch all products of a company
+* fetch all products of a seller
 
 
 <------ UPDATE ------>
-update company (add/remove products)
-update seller (add/remove products)
-update product (add/remove category)
+* update company (add/remove products)
+* update seller (add/remove products)
+* update product (add/remove category)
 
 
 <------ DELETE ------>
-delete company
-delete seller
-delete product
+* delete company
+* delete seller
+* delete product
+ 
